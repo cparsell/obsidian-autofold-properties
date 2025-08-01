@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
-	"version": "1.0.0",
+	"id": "auto-collapse-properties",
+	"name": "Auto Collapse Properties",
+	"version": "0.1.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "Folds metadata properties sections in Obsidian notes automatically.",
+	"author": "Fried Fishsticks",
+	"authorUrl": "",
+	"fundingUrl": "",
 	"isDesktopOnly": false
 }
