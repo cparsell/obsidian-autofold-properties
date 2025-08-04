@@ -21,7 +21,7 @@ export default class RememberProperties extends Plugin {
       this.app.workspace.on("file-open", () => this.maybeUnfold())
     );
 
-    /* 2️⃣ run when a pane (leaf) becomes active – covers Cmd+Shift+T */
+    /* 2️⃣ run when a pane (leaf) becomes active - covers Cmd+Shift+T */
     this.registerEvent(
       this.app.workspace.on("active-leaf-change", () => this.maybeUnfold())
     );
@@ -71,7 +71,7 @@ export default class RememberProperties extends Plugin {
     });
   }
 
-  /* ── Step 2 – detect user folding / unfolding ────────────── */
+  /* ── Step 2 - detect user folding / unfolding ────────────── */
   private onHeadingClick(evt: MouseEvent) {
     const heading = (evt.target as HTMLElement).closest(
       ".metadata-properties-heading"
